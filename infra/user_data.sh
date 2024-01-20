@@ -9,3 +9,4 @@ sudo chmod 707 projetoLogS3/src
 sudo cp projetoLogS3/config/*.conf /etc/nginx/
 cd projetoLogS3/src
 sudo npm install express request-ip aws-sdk
+node app.js
